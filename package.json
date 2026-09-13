@@ -1,0 +1,17 @@
+{
+  "name": "rainbow-guardian",
+  "version": "1.0.0",
+  "description": "Rainbow Guardian - a tiny arcade defender in vanilla Canvas2D + WebAudio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "python3 -m http.server 8002"
+  },
+  "devDependencies": {
+    "ect-bin": "~1.4.1",
+    "google-closure-compiler": "~20230502.0.0",
+    "roadroller": "~2.1.0",
+    "uglify-js": "~3.17.4"
+  }
+}
